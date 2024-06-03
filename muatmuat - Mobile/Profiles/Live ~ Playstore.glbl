@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Live ~ Playstore</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'com.azlogistik.muatmuat&amp;hl=en-ID'</initValue>
+      <name>appPath</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Test Account'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'08137500001'</initValue>
+      <name>noWhatsapp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'andriray@yopmail.com'</initValue>
+      <name>email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Qcaz123456'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Qcaz123456'</initValue>
+      <name>passwordConfirmation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>codeReferral</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'com.azlogistik.muatmuattransporter&amp;hl=en-ID'</initValue>
+      <name>appTransporter</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'com.azlogistik.muatmuatseller&amp;hl=en-ID'</initValue>
+      <name>appSeller</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>pathScreenshots</description>
+      <initValue>'C:\\Users\\LeoBlaze\\Pictures\\02. Katalon Studio\\'</initValue>
+      <name>pathScreenshots</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>mm-dd-yyyy</description>
+      <initValue>'06/01/2024'</initValue>
+      <name>startDate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>mm-dd-yyyy</description>
+      <initValue>'06/02/2024'</initValue>
+      <name>endDate</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
