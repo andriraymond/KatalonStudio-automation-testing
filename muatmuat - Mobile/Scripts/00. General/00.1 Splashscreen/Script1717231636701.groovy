@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication(GlobalVariable.appPath)
+//Mobile.startExistingApplication(GlobalVariable.appPath)
 
 Mobile.verifyElementVisible(findTestObject('00. General/00.1 Splashscreen/00.1 splashScreenSection'), 0)
 
@@ -31,10 +31,6 @@ deviceWidth = Mobile.getDeviceWidth()
 
 //Mobile.scrollToText('Kebijakan Privasi (Privacy Policy) Layanan muatmuat', FailureHandling.STOP_ON_FAILURE)
 Mobile.scrollToText('Kebijakan Privasi (Privacy Policy) Layanan muatmuat', FailureHandling.CONTINUE_ON_FAILURE)
-
-//Mobile.swipe(deviceWidth, 0, deviceWidth, 1000)
-//Mobile.swipe(200, 300, 200, 600)
-Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('00. General/00.2 privacyPolicy/00.2 checkBox1'), 0)
 

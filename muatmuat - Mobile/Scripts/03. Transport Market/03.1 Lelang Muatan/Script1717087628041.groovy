@@ -27,23 +27,45 @@ Mobile.tap(findTestObject('Object Repository/03. Transport Market/03.1 Lelang Mu
 
 WebUI.delay(5)
 
-Mobile.takeScreenshot(GlobalVariable.pathScreenshots + 'LelangMuatan01.png')
+if (Mobile.verifyElementVisible(findTestObject('03. Transport Market/03.1 Lelang Muatan/03.1 btnOKPopUp'), 0)) {
+    Mobile.takeScreenshot(GlobalVariable.pathScreenshots + 'LelangMuatan01.png')
 
-Mobile.tap(findTestObject('Object Repository/03. Transport Market/03.1 Lelang Muatan/03.1 closeTooltip'), 0)
+    Mobile.tap(findTestObject('Object Repository/03. Transport Market/03.1 Lelang Muatan/03.1 closeTooltip'), 0)
 
-Mobile.takeScreenshot(GlobalVariable.pathScreenshots + 'LelangMuatan02.png')
+    Mobile.takeScreenshot(GlobalVariable.pathScreenshots + 'LelangMuatan02.png')
 
-Mobile.tap(findTestObject('Object Repository/03. Transport Market/03.1 Lelang Muatan/03.1 closeTooltips'), 0)
+    Mobile.tap(findTestObject('Object Repository/03. Transport Market/03.1 Lelang Muatan/03.1 closeTooltips'), 0)
 
-Mobile.takeScreenshot(GlobalVariable.pathScreenshots + 'LelangMuatan03.png')
+    Mobile.takeScreenshot(GlobalVariable.pathScreenshots + 'LelangMuatan03.png')
 
-Mobile.tap(findTestObject('Object Repository/03. Transport Market/03.1 Lelang Muatan/03.1 tabRiwayat'), 0)
+    Mobile.tap(findTestObject('Object Repository/03. Transport Market/03.1 Lelang Muatan/03.1 tabRiwayat'), 0)
 
-Mobile.takeScreenshot(GlobalVariable.pathScreenshots + 'LelangMuatan04.png')
+    Mobile.takeScreenshot(GlobalVariable.pathScreenshots + 'LelangMuatan04.png')
 
-Mobile.tap(findTestObject('Object Repository/03. Transport Market/03.1 Lelang Muatan/03.1 tabAktif'), 0)
+    Mobile.tap(findTestObject('Object Repository/03. Transport Market/03.1 Lelang Muatan/03.1 tabAktif'), 0)
 
-Mobile.takeScreenshot(GlobalVariable.pathScreenshots + 'LelangMuatan05.png')
+    Mobile.takeScreenshot(GlobalVariable.pathScreenshots + 'LelangMuatan05.png')
 
-WebUI.delay(5)
+    WebUI.delay(5)
+} else {
+    Mobile.takeScreenshot(GlobalVariable.pathScreenshots + 'LelangMuatan01.png')
+
+    Mobile.tap(findTestObject('Object Repository/03. Transport Market/03.1 Lelang Muatan/03.1 closeTooltip'), 0)
+
+    Mobile.takeScreenshot(GlobalVariable.pathScreenshots + 'LelangMuatan02.png')
+
+    Mobile.tap(findTestObject('Object Repository/03. Transport Market/03.1 Lelang Muatan/03.1 closeTooltips'), 0)
+
+    Mobile.takeScreenshot(GlobalVariable.pathScreenshots + 'LelangMuatan03.png')
+
+    Mobile.tap(findTestObject('Object Repository/03. Transport Market/03.1 Lelang Muatan/03.1 tabRiwayat'), 0)
+
+    Mobile.takeScreenshot(GlobalVariable.pathScreenshots + 'LelangMuatan04.png')
+
+    Mobile.tap(findTestObject('Object Repository/03. Transport Market/03.1 Lelang Muatan/03.1 tabAktif'), 0)
+
+    Mobile.takeScreenshot(GlobalVariable.pathScreenshots + 'LelangMuatan05.png')
+
+    WebUI.delay(5)
+}
 

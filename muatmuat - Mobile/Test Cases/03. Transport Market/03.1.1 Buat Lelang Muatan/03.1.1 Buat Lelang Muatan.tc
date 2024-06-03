@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>03.1 Lelang Muatan</name>
+   <name>03.1.1 Buat Lelang Muatan</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>ee5e768b-a881-4eed-9c50-8865cec483d0</testCaseGuid>
+   <testCaseGuid>bb72e9b1-401e-4788-8657-cd847c4889b8</testCaseGuid>
 </TestCaseEntity>
