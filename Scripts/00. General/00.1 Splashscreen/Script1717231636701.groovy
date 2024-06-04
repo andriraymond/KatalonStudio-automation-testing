@@ -17,9 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication(GlobalVariable.appPath)
+//Mobile.startExistingApplication(GlobalVariable.appPath)
+Mobile.verifyElementVisible(findTestObject('00. General/00.1 Splashscreen/00.1 splashScreenSection'), 0, FailureHandling.OPTIONAL)
 
-Mobile.tap(findTestObject('00. General/00.3 Profile/00.3 bottomNavigationProfile'), 0)
+Mobile.tap(findTestObject('00. General/00.1 Splashscreen/00.1 skipButton'), 0)
 
-Mobile.tap(findTestObject('01. Auth/01.1 Login/01.1 btnLogout'), 0)
+Mobile.tap(findTestObject('00. General/00.1 Splashscreen/00.1 btnSignIn'), 0)
+
+deviceHeight = Mobile.getDeviceHeight()
+
+deviceWidth = Mobile.getDeviceWidth()
+
+//Mobile.scrollToText('Kebijakan Privasi (Privacy Policy) Layanan muatmuat', FailureHandling.STOP_ON_FAILURE)
+Mobile.scrollToText('Kebijakan Privasi (Privacy Policy) Layanan muatmuat', FailureHandling.OPTIONAL)
+
+Mobile.tap(findTestObject('00. General/00.2 privacyPolicy/00.2 checkBox1'), 0)
+
+Mobile.tap(findTestObject('00. General/00.2 privacyPolicy/00.2 checkBox2'), 0)
+
+Mobile.tap(findTestObject('00. General/00.2 privacyPolicy/00.2 btnNext'), 0)
 
